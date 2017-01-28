@@ -51,27 +51,27 @@ Using key size from 8192 to 32768 take time:
 on a Latitude E6540 under ubuntu 16.10:
 
 average key creation time:
-2048 bits:   < 1s
-4096 bits:  ~12 seconds - 20 seconds
-8192 bits:  ~140 seconds - 300 seconds
-16284 bits: ~500 seconds - 2 hours
-32768 bits: ~9 hours - several days
+- 2048 bits:   < 1s
+- 4096 bits:  ~12 seconds - 20 seconds
+- 8192 bits:  ~140 seconds - 300 seconds
+- 16284 bits: ~500 seconds - 2 hours
+- 32768 bits: ~9 hours - several days
 
 it's possible to use intermediate size, all 64 bits multiple are accepted.
 
 encryption time:
-2038 bits:      ~60 ko/s
-4096 bits:      ~19 ko/s
-8192 bits:      ~6 Ko/s
-16284 bits:     ~2 ko/s
-32768 bits:     ~500 oct/s
+- 2038 bits:      ~60 ko/s
+- 4096 bits:      ~19 ko/s
+- 8192 bits:      ~6 Ko/s
+- 16284 bits:     ~2 ko/s
+- 32768 bits:     ~500 oct/s
 
 decryption time:
-2038 bits:      ~15 ko/s
-4096 bits:      ~5 Ko/s
-8192 bits:      ~2.5 Ko/s
-16284 bits:     ~500 oct/s
-32768 bits:     ~200 oct/s
+- 2038 bits:      ~15 ko/s
+- 4096 bits:      ~5 Ko/s
+- 8192 bits:      ~2.5 Ko/s
+- 16284 bits:     ~500 oct/s
+- 32768 bits:     ~200 oct/s
 
 
 ok, it's pretty slow, that's why RSA is more used to encrypt symetric key which is used to encrypt/decrypt file, but it's far more secured.
