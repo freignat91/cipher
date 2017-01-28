@@ -1,0 +1,4 @@
+package: github.com/freignat91/cipher
+import:
+- package: github.com/spf13/cobra
+
