@@ -76,8 +76,8 @@ decryption time:
 
 ok, it's pretty slow, that's why RSA is more used to encrypt symetric key which is used to encrypt/decrypt file, but it's far more secured.
 
-For security reason, don't share your public and private keys, private and public keys should stay in this context, (encrypt/decrypt your own files), secret.
-The encrypt/decryption algorithm of this project don't use any padding scheme. It's not a security issue if the keys stay secret and especially are not used to authenticate, but only to encrypt/decrypt files.
+For security reason, don't share your public and private keys. They should stay secret in this context, (encrypt/decrypt your own files).
+The encrypt/decryption algorithm of this project don't use any padding scheme. It's not a security issue if the keys stay secret and especially are not used to authenticate.
 
 
 
